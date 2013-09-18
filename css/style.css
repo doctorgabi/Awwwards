@@ -1,2 +1,9 @@
-h1 {
-  color: red; }
+#nav1 ul li {
+  float: left;
+  display: inline-block;
+  border-right: 1px solid black; }
+  #nav1 ul li a {
+    text-transform: uppercase;
+    text-decoration: none; }
+#nav1 #socials {
+  float: left; }
