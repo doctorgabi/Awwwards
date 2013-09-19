@@ -121,6 +121,8 @@ header {
       color: #444;
       font-size: 12px;
       margin: 0px; }
+      #nav3 ul li:hover {
+        border-bottom: 1px solid black; }
     #nav3 ul li:first-of-type {
       padding-left: 0; }
     #nav3 ul li:last-of-type {
