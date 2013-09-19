@@ -58,6 +58,13 @@ section {
       font-size: 12px;
       font-weight: bold;
       padding-left: 15px; }
+      section #main_image p a {
+        font-size: 12px;
+        font-weight: bold;
+        padding-left: 15px;
+        text-decoration: none;
+        font-style: Georgia, Times, serif;
+        color: #444444; }
       section #main_image p span {
         font-weight: normal;
         font-style: italic;
@@ -79,6 +86,14 @@ section {
           border-bottom: none; }
         section #table table tr:last-child {
           border-bottom: none; }
+        section #table table tr .grey {
+          font-style: normal;
+          color: #444444;
+          text-decoration: none; }
+        section #table table tr .teal {
+          font-style: italic;
+          color: #409f89;
+          text-decoration: none; }
       section #table table th {
         text-align: left;
         font-size: 12px;
@@ -93,9 +108,7 @@ section {
           text-align: left;
           width: 25%; }
         section #table table td:nth-child(2) {
-          font-style: italic;
-          width: 32%;
-          color: #409f89; }
+          width: 32%; }
         section #table table td:nth-child(3) {
           text-align: left;
           width: 17%;

@@ -19,7 +19,15 @@ section
       font-size: 12px;
       font-weight: bold;
       padding-left: 15px;
-
+      a
+      {
+      font-size: 12px;
+      font-weight: bold;
+      padding-left: 15px;
+      text-decoration: none;
+      font-style: $site_font;
+      color: $grey;
+      }
       span
       {
         font-weight: normal;
@@ -58,6 +66,18 @@ section
         {
           border-bottom: none;
         }
+        .grey
+        {
+          font-style: normal;
+          color: $grey;
+          text-decoration: none;
+        }
+         .teal
+        {
+          font-style: italic;
+          color: $teal;
+          text-decoration: none;
+        }
       }
 
     th
@@ -74,18 +94,15 @@ section
         position: relative;
         top: 6px;
       }
-
-      font-size: 12px;
-      &:nth-child(1)
-        {
-        text-align: left;
-        width: 25%;
-        }
+        font-size: 12px;
+        &:nth-child(1)
+          {
+          text-align: left;
+          width: 25%;
+          }
       &:nth-child(2)
         {
-        font-style: italic;
         width: 32%;
-        color: $teal;
         }
       &:nth-child(3)
         {
