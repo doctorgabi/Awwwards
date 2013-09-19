@@ -13,8 +13,90 @@
   #nav1 #socials {
     float: left; }
 
-section #main_image {
-  float: left; }
+section {
+  font-style: Georgia, Times, serif;
+  color: #444444;
+  margin-top: 25px; }
+  section #main_image {
+    float: left; }
+    section #main_image #main_pic {
+      height: 287px;
+      width: 459; }
+    section #main_image p {
+      font-size: 12px;
+      font-weight: bold;
+      padding-left: 15px; }
+      section #main_image p span {
+        font-weight: normal;
+        font-style: italic;
+        color: #409f89; }
+  section #circles {
+    width: 77px;
+    float: left;
+    padding: 0;
+    margin: 0 10px; }
+  section #table {
+    float: left; }
+    section #table table {
+      background-color: #dee0df;
+      width: 611px; }
+      section #table table tr {
+        line-height: 30px;
+        border-bottom: 1px solid #D5D7D6; }
+        section #table table tr:nth-child(1) {
+          border-bottom: none; }
+        section #table table tr:last-child {
+          border-bottom: none; }
+      section #table table th {
+        text-align: left;
+        font-size: 12px;
+        font-weight: normal;
+        border-bottom: none; }
+      section #table table td {
+        font-size: 12px; }
+        section #table table td img {
+          position: relative;
+          top: 6px; }
+        section #table table td:nth-child(1) {
+          text-align: left;
+          width: 25%; }
+        section #table table td:nth-child(2) {
+          font-style: italic;
+          width: 32%;
+          color: #409f89; }
+        section #table table td:nth-child(3) {
+          text-align: left;
+          width: 17%;
+          font-size: 14px; }
+        section #table table td:nth-child(4) {
+          text-align: left;
+          width: 18%; }
+        section #table table td:nth-child(5) {
+          text-align: left;
+          width: 8%; }
+    section #table ul {
+      float: right;
+      padding-right: 18px; }
+      section #table ul li {
+        background-color: #dee0df;
+        display: inline;
+        font-size: 10px;
+        padding-left: 15px; }
+        section #table ul li:nth-child(even) {
+          padding: 0; }
+        section #table ul li:nth-child(odd) {
+          position: relative; }
+        section #table ul li:nth-child(1) {
+          top: 3px; }
+        section #table ul li:nth-child(3) {
+          top: 5px;
+          left: 3px; }
+        section #table ul li:nth-child(5) {
+          top: 1px;
+          left: 2px; }
+        section #table ul li:nth-child(7) {
+          top: 2px;
+          left: 3px; }
 
 .clear {
   clear: both; }
