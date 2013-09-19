@@ -1,17 +1,49 @@
+header {
+  float: left;
+  clear: both;
+  margin: auto;
+  width: 960px;
+  position: relative; }
+  header a {
+    float: left; }
+  header h1 {
+    font-style: Georgia, Times, serif;
+    font-size: 12px;
+    margin: 0 0 0 5px;
+    display: inline-block;
+    padding-top: 30px; }
+
 #nav1 {
-  float: right; }
+  float: left;
+  padding-left: 630px;
+  width: 960px;
+  margin: auto; }
   #nav1 ul li {
     float: left;
     display: inline-block;
     border-right: 1px solid black;
-    padding: 0 5px; }
+    padding: 0 5px;
+    font-size: 12px; }
+    #nav1 ul li:last-child {
+      background: #444444;
+      text-align: center;
+      color: #757575;
+      padding: 10px 15px; }
+      #nav1 ul li:last-child a {
+        color: white;
+        font-weight: bold; }
     #nav1 ul li a {
       text-transform: uppercase;
       text-decoration: none;
       color: #444444;
       font-size: normal_font_size; }
-  #nav1 #socials {
-    float: left; }
+      #nav1 ul li a .socials {
+        border: none;
+        -webkit-transition: opacity .2s ease-in-out;
+        -moz-transition: opacity .2s ease-in-out;
+        transition: opacity .2s ease-in-out; }
+        #nav1 ul li a .socials:hover {
+          opacity: 0.1; }
 
 section {
   font-style: Georgia, Times, serif;
