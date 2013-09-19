@@ -3,12 +3,12 @@
 @import 'header';
 @import 'nav1';
 @import 'nav2';
-// @import 'nav3';
+@import 'nav3';
 @import 'section';
-// @import 'footer';
+@import 'footer';
 
 .clear {
-  clear: both;
+  clear:both;
 }
 
 body {
@@ -19,4 +19,3 @@ body {
   width: 1182px;
   margin: auto;
 }
-

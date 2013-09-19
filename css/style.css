@@ -1,22 +1,34 @@
+@font-face {
+  font-family: 'Genius-100';
+  src: url(Genius-100-Thin-webfont.woff); }
+
+@font-face {
+  font-family: 'MuseoSans';
+  src: url(MuseoSans_500-webfont.woff); }
+
 header {
   clear: both;
   position: relative; }
   header a {
     float: left; }
   header h1 {
+<<<<<<< HEAD
     font-style: Georgia, sans-serif;
+=======
+    font-family: MuseoSans, Georgia, Times, serif;
+>>>>>>> master
     font-size: 12px;
     float: left;
     margin: 0 0 0 5px;
     display: inline-block;
     line-height: 56px;
     padding-top: 8px;
-    font-weight: normal;
-    letter-spacing: .2em; }
+    font-weight: normal; }
     header h1 span {
       letter-spacing: 0; }
 
 #nav1 {
+<<<<<<< HEAD
   float: right; }
   #nav1 ul li {
     display: inline-block;
@@ -37,19 +49,89 @@ header {
       text-transform: uppercase;
       text-decoration: none;
       color: #444444;
+=======
+  float: right;
+  border-top: solid 3px black;
+  width: 100%; }
+  #nav1 ul {
+    margin-top: 0px;
+    float: right; }
+    #nav1 ul li {
+      display: inline-block;
+      border-right: 1px solid black;
+      padding: 0 5px;
+>>>>>>> master
       font-size: 12px; }
-      #nav1 ul li a:hover {
-        color: #444444; }
-  #nav1 ul .socials {
-    border: none;
-    -webkit-transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    transition: opacity .2s ease-in-out; }
-    #nav1 ul .socials:hover {
-      opacity: 0.5; }
+      #nav1 ul li:last-child {
+        background: #444444;
+        text-align: center;
+        color: #757575;
+        padding: 10px 15px; }
+        #nav1 ul li:last-child a {
+          color: white;
+          font-weight: bold; }
+      #nav1 ul li a {
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #444444;
+        font-size: 12px; }
+        #nav1 ul li a:hover {
+          color: #444444; }
+    #nav1 ul .socials {
+      border: none;
+      padding: 0;
+      -webkit-transition: opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      transition: opacity .2s ease-in-out; }
+      #nav1 ul .socials:hover {
+        opacity: 0.5; }
 
 #nav2 {
+  float: left;
+  width: 100%;
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 10px; }
+  #nav2 input {
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    background: #dee0df;
+    border: 1px solid #b6b8b7;
+    color: #bbb;
+    padding: 8px; }
+  #nav2 ul {
+    padding: 0px;
+    display: inline;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 0; }
+    #nav2 ul li {
+      display: inline; }
+      #nav2 ul li a {
+        font-family: MuseoSans, Georgia, Times, serif;
+        color: #444444;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-right: 10px;
+        -webkit-transition: color .2s ease-in-out;
+        -moz-transition: color .2s ease-in-out;
+        transition: color .2s ease-in-out;
+        font-size: 16px; }
+        #nav2 ul li a:hover {
+          color: #757575; }
+      #nav2 ul li #teal {
+        color: #409f89; }
+
+#nav3 {
+  width: 100%;
+  border-top: 1px solid #b6b8b7;
+  border-bottom: 1px solid #b6b8b7;
+  height: 45px;
   float: left; }
+<<<<<<< HEAD
   #nav2 ul li {
     display: inline-block; }
     #nav2 ul li #teal {
@@ -88,6 +170,34 @@ header {
 
 section {
   font-style: Georgia, sans-serif;
+=======
+  #nav3 img {
+    display: block;
+    float: right; }
+  #nav3 ul {
+    padding: 0px;
+    list-style-type: none;
+    float: left;
+    margin: 0; }
+    #nav3 ul li {
+      display: inline-block;
+      float: left;
+      border-right: 1px solid #b6b8b7;
+      padding: 15px;
+      font-family: MuseoSans, Georgia, Times, serif;
+      color: #444;
+      font-size: 12px;
+      margin: 0px; }
+      #nav3 ul li:hover {
+        border-bottom: 1px solid black; }
+    #nav3 ul li:first-of-type {
+      padding-left: 0; }
+    #nav3 ul li:last-of-type {
+      border-right: none; }
+
+section {
+  font-family: MuseoSans, Georgia, Times, serif;
+>>>>>>> master
   color: #444444;
   margin-top: 25px; }
   section #main_image {
@@ -106,7 +216,11 @@ section {
         font-weight: bold;
         padding-left: 15px;
         text-decoration: none;
+<<<<<<< HEAD
         font-style: Georgia, sans-serif;
+=======
+        font-family: MuseoSans, Georgia, Times, serif;
+>>>>>>> master
         color: #444444; }
       section #main_image p span {
         font-weight: normal;
@@ -185,6 +299,43 @@ section {
         section #table ul li:nth-child(7) {
           top: 2px;
           left: 3px; }
+
+footer {
+  float: left;
+  width: 100%;
+  margin-top: 25px; }
+  footer ul {
+    list-style-type: none;
+    padding: 0; }
+    footer ul li:first-child {
+      margin-left: 0px; }
+    footer ul li {
+      display: inline-block;
+      float: left;
+      position: relative;
+      margin-left: 23px; }
+      footer ul li div {
+        margin-bottom: 10px; }
+        footer ul li div img.topimage {
+          position: absolute;
+          left: 0;
+          top: 0; }
+          footer ul li div img.topimage:hover {
+            opacity: 0; }
+        footer ul li div img {
+          -webkit-transition: opacity .25s ease-in-out;
+          -moz-transition: opacity .25s ease-in-out;
+          -o-transition: opacity .25s ease-in-out;
+          transition: opacity .25s ease-in-out;
+          float: left; }
+      footer ul li h4 {
+        font-size: 12px;
+        font-weight: bold;
+        color: #584444;
+        margin-top: 10px; }
+      footer ul li p {
+        font-size: 12px;
+        color: #409f89; }
 
 .clear {
   clear: both; }
