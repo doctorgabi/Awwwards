@@ -1,0 +1,22 @@
+#nav1 {
+
+  ul {
+
+    li {
+      float: left;
+      display: inline-block;
+      border-right: 1px solid black;
+
+      a{
+        text-transform: uppercase;
+        text-decoration: none;
+      }
+    }
+  }
+
+  #socials {
+    float: left;
+
+  }
+
+}
