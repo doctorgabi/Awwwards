@@ -1,9 +1,13 @@
-// @import 'colors';
-// @import 'fonts';
+@import 'colors';
+@import 'fonts';
 // @import 'header';
 @import 'nav1';
 // @import 'nav2';
 // @import 'nav3';
 @import 'section';
 // @import 'footer';
+
+.clear {
+  clear: both;
+}
 
