@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'Genius-100';
+  src:url(Genius-100-Thin-webfont.woff);
+}
+@font-face {
+  font-family: 'MuseoSans';
+  src:url(MuseoSans_500-webfont.woff);
+}
+$site_font : MuseoSans,Georgia,Times,serif;
+$normal_font_size: 12px;

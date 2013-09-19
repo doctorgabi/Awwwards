@@ -1,4 +1,2 @@
-Awwwards
-========
 
 Awwwards project

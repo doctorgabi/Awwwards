@@ -2,20 +2,28 @@ footer
 {
   float:left;
   width:100%;
+  margin-top:25px;
 
   ul
   {
     list-style-type: none;
     padding:0;
 
+    li:first-child
+    {
+      margin-left:0px;
+    }
+
     li
     {
       display:inline-block;
       float:left;
       position:relative;
+      margin-left:23px;
 
       div
       {
+        margin-bottom:10px;
 
         img.topimage {
           position: absolute;
@@ -41,12 +49,16 @@ footer
 
       h4
       {
-
+      font-size:12px;
+      font-weight:bold;
+      color: #584444;
+      margin-top:10px;
       }
 
       p
       {
-
+        font-size:12px;
+        color: $teal;
       }
     }
   }

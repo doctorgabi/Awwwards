@@ -1,0 +1,48 @@
+#nav1 {
+  float: right;
+  border-top: solid 3px black;
+  width:100%;
+
+  ul {
+    margin-top:0px;
+    float:right;
+
+    li {
+      display: inline-block;
+      border-right: 1px solid black;
+      padding: 0 5px;
+      font-size: $normal_font_size;
+        &:last-child{
+          background: $grey;
+          text-align: center;
+          color: $light_grey;
+          padding: 10px 15px;
+
+          a{
+            color: white;
+            font-weight: bold;
+          }
+        }
+
+      a{
+        text-transform: uppercase;
+        text-decoration: none;
+        color: $grey;
+        font-size: $normal_font_size;
+          &:hover {
+            color: desaturate($grey, 70%);
+          }
+        }
+      }
+    .socials {
+      border: none;
+      padding:0;
+      -webkit-transition:opacity .2s ease-in-out;
+      -moz-transition: opacity .2s ease-in-out;
+      transition: opacity .2s ease-in-out;
+        &:hover{
+          opacity: 0.5;
+      }
+    }
+  }
+}

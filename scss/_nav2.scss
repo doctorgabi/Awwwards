@@ -1,0 +1,57 @@
+#nav2 {
+  float: left;
+  width:100%;
+  position:relative;
+  margin-top:20px;
+  margin-bottom:10px;
+
+    input {
+      display:inline-block;
+      float:right;
+      font-size:12px;
+      background: rgb(222, 224, 223);
+      border:1px solid #b6b8b7;
+      color: #bbb;
+      padding: 8px;
+
+    }
+
+    ul {
+      padding:0px;
+      display:inline;
+      position:absolute;
+      bottom:0;
+      left:0;
+      margin:0;
+
+      li {
+        display: inline;
+
+
+          a {
+            font-family: $site_font;
+            color: $grey;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-right: 10px;
+            -webkit-transition: color .2s ease-in-out;
+            -moz-transition: color .2s ease-in-out;
+            transition: color .2s ease-in-out;
+            font-size:16px;
+
+
+            &:hover{
+              color: $light_grey;
+              }
+            }
+
+            #teal
+            {
+              color:$teal;
+            }
+
+
+      }
+    }
+  }

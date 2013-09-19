@@ -1,0 +1,26 @@
+header {
+  clear: both;
+  position: relative;
+
+  a{
+    float: left;
+  }
+
+  h1{
+    font-family: $site_font;
+    font-size: $normal_font_size;
+    float: left;
+    margin: 0 0 0 5px;
+    display: inline-block;
+    line-height: 56px;
+    padding-top: 8px;
+    font-weight: normal;
+    // letter-spacing: .2em;
+
+    span{
+      letter-spacing: 0;
+    }
+
+
+  }
+}
