@@ -15,7 +15,7 @@ header {
 
 #nav1 {
   float: left;
-  padding-left: 600px;
+  padding-left: 630px;
   width: 960px;
   margin: auto; }
   #nav1 ul li {
@@ -133,6 +133,9 @@ section {
 .clear {
   clear: both; }
 
+body {
+  background-color: #dee0df; }
+
 #main {
   width: 1182px;
-  background-color: #dee0df; }
+  margin: auto; }
