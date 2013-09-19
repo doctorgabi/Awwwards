@@ -104,6 +104,9 @@ header {
   border-bottom: 1px solid #b6b8b7;
   height: 45px;
   float: left; }
+  #nav3 img {
+    display: block;
+    float: right; }
   #nav3 ul {
     padding: 0px;
     list-style-type: none;
