@@ -1,0 +1,22 @@
+header {
+  float: left;
+  clear: both;
+  margin: auto;
+  width: 960px;
+  position: relative;
+
+  a{
+    float: left;
+
+
+  }
+
+  h1{
+    font-style: $site_font;
+    font-size: $normal_font_size;
+    float: left;
+    margin: 0 0 0 5px;
+    position: absolute;
+    bottom: 0;
+  }
+}
