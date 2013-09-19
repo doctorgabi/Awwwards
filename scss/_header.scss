@@ -1,23 +1,26 @@
 header {
-  float: left;
   clear: both;
-  margin: auto;
-  width: 960px;
   position: relative;
 
   a{
     float: left;
-
-
   }
 
   h1{
     font-style: $site_font;
     font-size: $normal_font_size;
-    // float: left;
+    float: left;
     margin: 0 0 0 5px;
     display: inline-block;
-    padding-top: 30px;
+    line-height: 56px;
+    padding-top: 8px;
+    font-weight: normal;
+    letter-spacing: .2em;
+
+    span{
+      letter-spacing: 0;
+    }
+
 
   }
 }

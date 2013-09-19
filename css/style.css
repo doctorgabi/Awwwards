@@ -1,25 +1,24 @@
 header {
-  float: left;
   clear: both;
-  margin: auto;
-  width: 960px;
   position: relative; }
   header a {
     float: left; }
   header h1 {
     font-style: Georgia, Times, serif;
     font-size: 12px;
+    float: left;
     margin: 0 0 0 5px;
     display: inline-block;
-    padding-top: 30px; }
+    line-height: 56px;
+    padding-top: 8px;
+    font-weight: normal;
+    letter-spacing: .2em; }
+    header h1 span {
+      letter-spacing: 0; }
 
 #nav1 {
-  float: left;
-  padding-left: 630px;
-  width: 960px;
-  margin: auto; }
+  float: right; }
   #nav1 ul li {
-    float: left;
     display: inline-block;
     border-right: 1px solid black;
     padding: 0 5px;
@@ -36,14 +35,35 @@ header {
       text-transform: uppercase;
       text-decoration: none;
       color: #444444;
-      font-size: normal_font_size; }
-      #nav1 ul li a .socials {
-        border: none;
-        -webkit-transition: opacity .2s ease-in-out;
-        -moz-transition: opacity .2s ease-in-out;
-        transition: opacity .2s ease-in-out; }
-        #nav1 ul li a .socials:hover {
-          opacity: 0.1; }
+      font-size: 12px; }
+      #nav1 ul li a:hover {
+        color: #444444; }
+  #nav1 ul .socials {
+    border: none;
+    -webkit-transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    transition: opacity .2s ease-in-out; }
+    #nav1 ul .socials:hover {
+      opacity: 0.5; }
+
+#nav2 {
+  float: left; }
+  #nav2 ul li {
+    display: inline-block; }
+    #nav2 ul li a {
+      font-style: Georgia, Times, serif;
+      color: #444444;
+      text-decoration: none;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-right: 10px;
+      -webkit-transition: color .2s ease-in-out;
+      -moz-transition: color .2s ease-in-out;
+      transition: color .2s ease-in-out; }
+      #nav2 ul li a:nth-of-type(5) {
+        color: #409f89; }
+      #nav2 ul li a:hover {
+        color: #757575; }
 
 section {
   font-style: Georgia, Times, serif;
