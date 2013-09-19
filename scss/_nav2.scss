@@ -22,7 +22,6 @@
             -webkit-transition: color .2s ease-in-out;
             -moz-transition: color .2s ease-in-out;
             transition: color .2s ease-in-out;
-
             &:hover{
               color: $light_grey;
               }
@@ -35,7 +34,7 @@
         float: right;
         width: 180px;
         height: 25px;
-        position: relative;  /* Ben: you may need to change this-it will effect the postioning of Nav 3 */
+        position: relative;  /* Ben: you may need to change this-it will affect the postioning of Nav 3 */
         top: -50px;
         left: 516px;
         border: 1px solid #b6b8b7;
