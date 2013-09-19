@@ -63,10 +63,10 @@ section {
         font-style: italic;
         color: #409f89; }
   section #circles {
-    width: 77px;
+    width: 84px;
     float: left;
-    padding: 0;
-    margin: 0 10px; }
+    padding: 0 0 0 7px;
+    margin: 0; }
   section #table {
     float: left; }
     section #table table {
@@ -134,4 +134,5 @@ section {
   clear: both; }
 
 #main {
-  width: 1182px; }
+  width: 1182px;
+  background-color: #dee0df; }
