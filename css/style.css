@@ -1,9 +1,17 @@
-#nav1 ul li {
-  float: left;
-  display: inline-block;
-  border-right: 1px solid black; }
-  #nav1 ul li a {
-    text-transform: uppercase;
-    text-decoration: none; }
-#nav1 #socials {
-  float: left; }
+#nav1 {
+  float: right; }
+  #nav1 ul li {
+    float: left;
+    display: inline-block;
+    border-right: 1px solid black;
+    padding: 0 5px; }
+    #nav1 ul li a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #444444;
+      font-size: normal_font_size; }
+  #nav1 #socials {
+    float: left; }
+
+.clear {
+  clear: both; }

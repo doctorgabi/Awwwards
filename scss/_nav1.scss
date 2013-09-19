@@ -1,15 +1,18 @@
 #nav1 {
-
+  float: right;
   ul {
 
     li {
       float: left;
       display: inline-block;
       border-right: 1px solid black;
+      padding: 0 5px;
 
       a{
         text-transform: uppercase;
         text-decoration: none;
+        color: $grey;
+        font-size: normal_font_size;
       }
     }
   }
