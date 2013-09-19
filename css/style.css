@@ -101,6 +101,9 @@ section {
 .clear {
   clear: both; }
 
+body {
+  background-color: #dee0df; }
+
 #main {
   width: 1182px;
-  background-color: #dee0df; }
+  margin: auto; }
