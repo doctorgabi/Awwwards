@@ -4,7 +4,7 @@ header {
   header a {
     float: left; }
   header h1 {
-    font-style: Georgia, Times, serif;
+    font-style: Georgia, sans-serif;
     font-size: 12px;
     float: left;
     margin: 0 0 0 5px;
@@ -31,6 +31,8 @@ header {
       #nav1 ul li:last-child a {
         color: white;
         font-weight: bold; }
+        #nav1 ul li:last-child a:hover {
+          color: white; }
     #nav1 ul li a {
       text-transform: uppercase;
       text-decoration: none;
@@ -50,8 +52,12 @@ header {
   float: left; }
   #nav2 ul li {
     display: inline-block; }
+    #nav2 ul li #teal {
+      color: #409f89; }
+      #nav2 ul li #teal:hover {
+        color: #757575; }
     #nav2 ul li a {
-      font-style: Georgia, Times, serif;
+      font-style: Georgia, sans-serif;
       color: #444444;
       text-decoration: none;
       font-weight: bold;
@@ -60,13 +66,28 @@ header {
       -webkit-transition: color .2s ease-in-out;
       -moz-transition: color .2s ease-in-out;
       transition: color .2s ease-in-out; }
-      #nav2 ul li a:nth-of-type(5) {
-        color: #409f89; }
       #nav2 ul li a:hover {
         color: #757575; }
+  #nav2 textarea {
+    background-color: #dee0df;
+    float: right;
+    width: 180px;
+    height: 25px;
+    position: relative;
+    /* Ben: you may need to change this-it will effect the postioning of Nav 3 */
+    top: -50px;
+    left: 516px;
+    border: 1px solid #b6b8b7;
+    color: #b6b8b7;
+    font-family: Georgia, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding-top: 8px;
+    padding-left: 5px;
+    line-height: 16px; }
 
 section {
-  font-style: Georgia, Times, serif;
+  font-style: Georgia, sans-serif;
   color: #444444;
   margin-top: 25px; }
   section #main_image {
@@ -85,7 +106,7 @@ section {
         font-weight: bold;
         padding-left: 15px;
         text-decoration: none;
-        font-style: Georgia, Times, serif;
+        font-style: Georgia, sans-serif;
         color: #444444; }
       section #main_image p span {
         font-weight: normal;
