@@ -60,8 +60,6 @@ header {
       -webkit-transition: color .2s ease-in-out;
       -moz-transition: color .2s ease-in-out;
       transition: color .2s ease-in-out; }
-      #nav2 ul li a:nth-of-type(5) {
-        color: #409f89; }
       #nav2 ul li a:hover {
         color: #757575; }
 
